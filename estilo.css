@@ -1,0 +1,32 @@
+form {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+form label, form select, form button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+form select, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #00796b;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #004d40;
+}
